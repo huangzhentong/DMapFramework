@@ -1,0 +1,6 @@
+framework module Pods_DMapFramework_Example {
+  umbrella header "Pods-DMapFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

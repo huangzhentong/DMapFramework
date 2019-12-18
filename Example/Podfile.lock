@@ -1,0 +1,16 @@
+PODS:
+  - DMapFramework (0.1.0)
+
+DEPENDENCIES:
+  - DMapFramework (from `../`)
+
+EXTERNAL SOURCES:
+  DMapFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMapFramework: 9e6f1d422d4f0291691d81d56be65a461cfc9528
+
+PODFILE CHECKSUM: 6d8ca4c7b956ecdcf94c2f3888a2e781d7303585
+
+COCOAPODS: 1.6.1
