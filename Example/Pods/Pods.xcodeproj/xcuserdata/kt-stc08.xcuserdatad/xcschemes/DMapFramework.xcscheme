@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E96D0B0D2402E6A9239E9AD53B5FEBE2"
-               BuildableName = "DMapFramework.framework"
+               BlueprintIdentifier = "71D8F6E49B730C07804FDC68F2F6A938"
+               BuildableName = "DMapFramework"
                BlueprintName = "DMapFramework"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

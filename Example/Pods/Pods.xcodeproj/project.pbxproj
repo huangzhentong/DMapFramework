@@ -6,14 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		71D8F6E49B730C07804FDC68F2F6A938 /* DMapFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F9FDA81184FBFA0C24579051C75C610 /* Build configuration list for PBXAggregateTarget "DMapFramework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = DMapFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0DDC5CBCC38F6417DA1A8A5851FF5122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		21A08BF8941C8E1F1E35D06087B6BF0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		26506428634D7AA447B54D7809536972 /* Pods-DMapFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD6386F78E29999CBE73F60C6DCEA98 /* Pods-DMapFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31B704D5CE2FBD8D72BC10F3E456DE42 /* DMapFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AE36C95CEEB8A5CCDD320D323D0655 /* DMapFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ACC607E4D775F377F027216C493B7FB /* DMapFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6ADCCC96843495793FD8D90D7B7309 /* DMapFramework-dummy.m */; };
 		3F32487C9845B479601E39B565A9D710 /* Pods-DMapFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B31BDAB09CAF2E5F21A5C4DAB1A427 /* Pods-DMapFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B87E776B7B533C86DDD937BA25BF538 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE896BCA6972D05481487AA92D659BD /* ReplaceMe.m */; };
 		810248C6348412699ABEFAC2604B56B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		9F506A08816A2369EEB867EEFB3D4F82 /* Pods-DMapFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF08E11D88627E5C962F0BDDDBEF212A /* Pods-DMapFramework_Tests-dummy.m */; };
 		FE37297ED6F06BC62983D159F60B141B /* Pods-DMapFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 920AC900E3B2D533776ECEDE562371CE /* Pods-DMapFramework_Example-dummy.m */; };
@@ -24,7 +32,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E96D0B0D2402E6A9239E9AD53B5FEBE2;
+			remoteGlobalIDString = 71D8F6E49B730C07804FDC68F2F6A938;
 			remoteInfo = DMapFramework;
 		};
 		D490856D00AA89657294096C5AB8A68B /* PBXContainerItemProxy */ = {
@@ -37,38 +45,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1186B919BCE038A0B6767383D8CECC6B /* DMapFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DMapFramework.modulemap; sourceTree = "<group>"; };
 		12B5BD7F159AA6FF86365E7EEFBDB5FF /* Pods-DMapFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMapFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		1A15B0C156115857A6400ADF873BB935 /* Pods-DMapFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMapFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		20E5FBCBAC77A0233BE2C570006C90A8 /* DMapFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DMapFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B489F748D06E5A0CB8D0C9243DC8A61 /* DMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMap.framework; path = DMapFramework/Classes/DMap.framework; sourceTree = "<group>"; };
 		2F9F5AE4AB6E19BAADE9151B2A589CEF /* Pods-DMapFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DMapFramework_Example.modulemap"; sourceTree = "<group>"; };
-		35743D2C3A53F0BE4558E7E024492E42 /* Pods_DMapFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMapFramework_Tests.framework; path = "Pods-DMapFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1DA30739A0D2EEE4A8490FB3A5F91F /* Pods-DMapFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMapFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		433E5A8431CF407E0CDFF922704C3869 /* Pods-DMapFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMapFramework_Example-Info.plist"; sourceTree = "<group>"; };
 		527A8348DCF9DBAA12595F900F2FB3CB /* Pods-DMapFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMapFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		60AEB6105AEC3D46070533B6CA76F33B /* Pods-DMapFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMapFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		691FF41AFC7B6BBA104DB8E57D0EEF21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		63351EBF1B60953E371B82B1D1552AC9 /* DMapFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMapFramework.xcconfig; sourceTree = "<group>"; };
 		6A2691787E7CE30F015DF4D47F036F3C /* Pods-DMapFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMapFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71AE36C95CEEB8A5CCDD320D323D0655 /* DMapFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMapFramework-umbrella.h"; sourceTree = "<group>"; };
-		7D6ADCCC96843495793FD8D90D7B7309 /* DMapFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMapFramework-dummy.m"; sourceTree = "<group>"; };
+		73309F45E5CCBD554D0BC6F8BF38F5AB /* Pods_DMapFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMapFramework_Tests.framework; path = "Pods-DMapFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824339D5E9CE5CD18DB6829F9B6BF0F6 /* Pods-DMapFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMapFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8DC5EA12D1A8E2589747320B1D59FDB0 /* DMapFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DMapFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8DD6386F78E29999CBE73F60C6DCEA98 /* Pods-DMapFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMapFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		920AC900E3B2D533776ECEDE562371CE /* Pods-DMapFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMapFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		949F7A8734E2BBFC5DD6AA613C872CDF /* Pods-DMapFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMapFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F9E5D8F11CAB90562B6699AE63AC87F /* DMapFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMapFramework.xcconfig; sourceTree = "<group>"; };
-		A15489B13C7F3D3739821D67E7E72329 /* DMapFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DMapFramework.framework; path = DMapFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ADD512E20456CB830ED099E8AA2A10 /* Pods_DMapFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMapFramework_Example.framework; path = "Pods-DMapFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B9753E44E3A92422777189EA8ED28D /* Pods-DMapFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DMapFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		AAB041F48A34B6F52F23E0213E413EBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AF08E11D88627E5C962F0BDDDBEF212A /* Pods-DMapFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMapFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		B3B31BDAB09CAF2E5F21A5C4DAB1A427 /* Pods-DMapFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMapFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C5EEEAC60DAE5FD43487237D4CE88C19 /* Pods-DMapFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMapFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFF2AE974691950D798E7B8D21CCD8B9 /* DMapFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMapFramework-prefix.pch"; sourceTree = "<group>"; };
 		D3D056C413CD4134A7CD9F7EFD3DE5BA /* Pods-DMapFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMapFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5FF87393C5D1B823C9BA33065F2EB9D /* DMapFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DMapFramework-Info.plist"; sourceTree = "<group>"; };
-		D95F9D34046E6DF2ED33F4A88461C794 /* Pods_DMapFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMapFramework_Example.framework; path = "Pods-DMapFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEE896BCA6972D05481487AA92D659BD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DMapFramework/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		F67193A4D9EF8EFD0116A7C42D86CCD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E62586FED9841D89F8613F72F2DA2938 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,36 +90,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CECE7195D266558ED3FD88FCDAC3A27B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21A08BF8941C8E1F1E35D06087B6BF0E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AAE83AF2CB8572C01C63330B660FA0D /* DMapFramework */ = {
+		171124555B893D807BD3CC635442590D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EEE896BCA6972D05481487AA92D659BD /* ReplaceMe.m */,
-				50B46C178306D3B2B052CF061B720E60 /* Pod */,
-				65FE94158E82F58DC72F925940496C96 /* Support Files */,
+				2B489F748D06E5A0CB8D0C9243DC8A61 /* DMap.framework */,
 			);
-			name = DMapFramework;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		50B46C178306D3B2B052CF061B720E60 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8DC5EA12D1A8E2589747320B1D59FDB0 /* DMapFramework.podspec */,
-				F67193A4D9EF8EFD0116A7C42D86CCD4 /* LICENSE */,
-				691FF41AFC7B6BBA104DB8E57D0EEF21 /* README.md */,
-			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		51A45755DF3965264240A0546B70843F /* Targets Support Files */ = {
@@ -132,33 +113,9 @@
 		57101CCDC94BEEF8B4CDB9CC644F1290 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0AAE83AF2CB8572C01C63330B660FA0D /* DMapFramework */,
+				AB5271CFDFEA12605A0B14ED68A68404 /* DMapFramework */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		65FE94158E82F58DC72F925940496C96 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1186B919BCE038A0B6767383D8CECC6B /* DMapFramework.modulemap */,
-				9F9E5D8F11CAB90562B6699AE63AC87F /* DMapFramework.xcconfig */,
-				7D6ADCCC96843495793FD8D90D7B7309 /* DMapFramework-dummy.m */,
-				D5FF87393C5D1B823C9BA33065F2EB9D /* DMapFramework-Info.plist */,
-				CFF2AE974691950D798E7B8D21CCD8B9 /* DMapFramework-prefix.pch */,
-				71AE36C95CEEB8A5CCDD320D323D0655 /* DMapFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DMapFramework";
-			sourceTree = "<group>";
-		};
-		8595A839EB4F8FD0771C3A14A8B6197A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A15489B13C7F3D3739821D67E7E72329 /* DMapFramework.framework */,
-				D95F9D34046E6DF2ED33F4A88461C794 /* Pods_DMapFramework_Example.framework */,
-				35743D2C3A53F0BE4558E7E024492E42 /* Pods_DMapFramework_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -167,6 +124,36 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A0559A5D41076B012E0873AD521CBD49 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				20E5FBCBAC77A0233BE2C570006C90A8 /* DMapFramework.podspec */,
+				AAB041F48A34B6F52F23E0213E413EBD /* LICENSE */,
+				E62586FED9841D89F8613F72F2DA2938 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AB5271CFDFEA12605A0B14ED68A68404 /* DMapFramework */ = {
+			isa = PBXGroup;
+			children = (
+				171124555B893D807BD3CC635442590D /* Frameworks */,
+				A0559A5D41076B012E0873AD521CBD49 /* Pod */,
+				BEA8FAA8B31E82BC94D589D8FAA9C1DC /* Support Files */,
+			);
+			name = DMapFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BEA8FAA8B31E82BC94D589D8FAA9C1DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63351EBF1B60953E371B82B1D1552AC9 /* DMapFramework.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DMapFramework";
 			sourceTree = "<group>";
 		};
 		C1D770BC65A5498AA79AF15718BE10B6 /* Pods-DMapFramework_Example */ = {
@@ -192,7 +179,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				57101CCDC94BEEF8B4CDB9CC644F1290 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8595A839EB4F8FD0771C3A14A8B6197A /* Products */,
+				F144EA2CD7E7A4BCCB84E8FF72EAD4F7 /* Products */,
 				51A45755DF3965264240A0546B70843F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -221,17 +208,18 @@
 			path = "Target Support Files/Pods-DMapFramework_Tests";
 			sourceTree = "<group>";
 		};
+		F144EA2CD7E7A4BCCB84E8FF72EAD4F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0ADD512E20456CB830ED099E8AA2A10 /* Pods_DMapFramework_Example.framework */,
+				73309F45E5CCBD554D0BC6F8BF38F5AB /* Pods_DMapFramework_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		07AC3D6A0D8EC3DD7F64FD5FA8199301 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31B704D5CE2FBD8D72BC10F3E456DE42 /* DMapFramework-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		59ACFC5E2A68328CAFD3763E6470055C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,25 +255,7 @@
 			);
 			name = "Pods-DMapFramework_Example";
 			productName = "Pods-DMapFramework_Example";
-			productReference = D95F9D34046E6DF2ED33F4A88461C794 /* Pods_DMapFramework_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E96D0B0D2402E6A9239E9AD53B5FEBE2 /* DMapFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 89AA5D5FA1E39D5F8E96B6285E5B5D13 /* Build configuration list for PBXNativeTarget "DMapFramework" */;
-			buildPhases = (
-				07AC3D6A0D8EC3DD7F64FD5FA8199301 /* Headers */,
-				53E58B0B0B20B3A54C4AC6A43C163196 /* Sources */,
-				CECE7195D266558ED3FD88FCDAC3A27B /* Frameworks */,
-				F090E99333934BE85077ED16BB5127D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DMapFramework;
-			productName = DMapFramework;
-			productReference = A15489B13C7F3D3739821D67E7E72329 /* DMapFramework.framework */;
+			productReference = A0ADD512E20456CB830ED099E8AA2A10 /* Pods_DMapFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FEE331D863D340AF3A9400D72EF320FE /* Pods-DMapFramework_Tests */ = {
@@ -304,7 +274,7 @@
 			);
 			name = "Pods-DMapFramework_Tests";
 			productName = "Pods-DMapFramework_Tests";
-			productReference = 35743D2C3A53F0BE4558E7E024492E42 /* Pods_DMapFramework_Tests.framework */;
+			productReference = 73309F45E5CCBD554D0BC6F8BF38F5AB /* Pods_DMapFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,11 +294,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8595A839EB4F8FD0771C3A14A8B6197A /* Products */;
+			productRefGroup = F144EA2CD7E7A4BCCB84E8FF72EAD4F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E96D0B0D2402E6A9239E9AD53B5FEBE2 /* DMapFramework */,
+				71D8F6E49B730C07804FDC68F2F6A938 /* DMapFramework */,
 				A035396595A8BC99CFA4142891030F90 /* Pods-DMapFramework_Example */,
 				FEE331D863D340AF3A9400D72EF320FE /* Pods-DMapFramework_Tests */,
 			);
@@ -336,13 +306,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F090E99333934BE85077ED16BB5127D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F2F8EDF920F9C53DEB7534E99978C94D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,15 +331,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53E58B0B0B20B3A54C4AC6A43C163196 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3ACC607E4D775F377F027216C493B7FB /* DMapFramework-dummy.m in Sources */,
-				4B87E776B7B533C86DDD937BA25BF538 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F550CACF7D36112E99FE7CAD9951A083 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,13 +351,48 @@
 		ED4C034DA50118D88B46499CA5C81440 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DMapFramework;
-			target = E96D0B0D2402E6A9239E9AD53B5FEBE2 /* DMapFramework */;
+			target = 71D8F6E49B730C07804FDC68F2F6A938 /* DMapFramework */;
 			targetProxy = 150E5E5AC8952F17911627BEB55606E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		15BA384EF33CF54F9E4B654495912313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A15B0C156115857A6400ADF873BB935 /* Pods-DMapFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -451,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,11 +452,12 @@
 			};
 			name = Release;
 		};
-		18C5C06D5F87FC80697BD37274B173EB /* Release */ = {
+		4BE49D1D1B4A208095C147A2D99B449D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A15B0C156115857A6400ADF873BB935 /* Pods-DMapFramework_Tests.release.xcconfig */;
+			baseConfigurationReference = C5EEEAC60DAE5FD43487237D4CE88C19 /* Pods-DMapFramework_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -479,7 +469,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests.modulemap";
@@ -491,13 +481,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -548,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -561,140 +550,26 @@
 			};
 			name = Debug;
 		};
-		70D88D947D011F1450A81711FBE075E5 /* Release */ = {
+		BF16D84B18AFE9E212DBACB8D628655A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F9E5D8F11CAB90562B6699AE63AC87F /* DMapFramework.xcconfig */;
+			baseConfigurationReference = 63351EBF1B60953E371B82B1D1552AC9 /* DMapFramework.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DMapFramework/DMapFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DMapFramework/DMapFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DMapFramework/DMapFramework.modulemap";
-				PRODUCT_MODULE_NAME = DMapFramework;
-				PRODUCT_NAME = DMapFramework;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		88E1C1E76D5969A353E94ADF9C9C9BFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60AEB6105AEC3D46070533B6CA76F33B /* Pods-DMapFramework_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B23F29A7AD0A3791860243E74C597BD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F9E5D8F11CAB90562B6699AE63AC87F /* DMapFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DMapFramework/DMapFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DMapFramework/DMapFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DMapFramework/DMapFramework.modulemap";
-				PRODUCT_MODULE_NAME = DMapFramework;
-				PRODUCT_NAME = DMapFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F311C9F22E24A07939F2B919F8301BB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5EEEAC60DAE5FD43487237D4CE88C19 /* Pods-DMapFramework_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F35843DD20CF6E6C91B43683EB30D170 /* Release */ = {
+		C56210A844AD8A53CD5358065473ECBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 949F7A8734E2BBFC5DD6AA613C872CDF /* Pods-DMapFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -706,7 +581,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example.modulemap";
@@ -724,23 +599,70 @@
 			};
 			name = Release;
 		};
+		E2889640186DCFFC0DE111A350CFC149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AEB6105AEC3D46070533B6CA76F33B /* Pods-DMapFramework_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED72C80DF1B655A0152565A218D8602C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63351EBF1B60953E371B82B1D1552AC9 /* DMapFramework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		0F9FDA81184FBFA0C24579051C75C610 /* Build configuration list for PBXAggregateTarget "DMapFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				ED72C80DF1B655A0152565A218D8602C /* Debug */,
+				BF16D84B18AFE9E212DBACB8D628655A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89AA5D5FA1E39D5F8E96B6285E5B5D13 /* Build configuration list for PBXNativeTarget "DMapFramework" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B23F29A7AD0A3791860243E74C597BD6 /* Debug */,
-				70D88D947D011F1450A81711FBE075E5 /* Release */,
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,8 +670,8 @@
 		A5A83B43187B755DF4974D596F350310 /* Build configuration list for PBXNativeTarget "Pods-DMapFramework_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F311C9F22E24A07939F2B919F8301BB3 /* Debug */,
-				18C5C06D5F87FC80697BD37274B173EB /* Release */,
+				4BE49D1D1B4A208095C147A2D99B449D /* Debug */,
+				15BA384EF33CF54F9E4B654495912313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,8 +679,8 @@
 		F32F7FD569319097A89B3A64A72F5F20 /* Build configuration list for PBXNativeTarget "Pods-DMapFramework_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88E1C1E76D5969A353E94ADF9C9C9BFD /* Debug */,
-				F35843DD20CF6E6C91B43683EB30D170 /* Release */,
+				E2889640186DCFFC0DE111A350CFC149 /* Debug */,
+				C56210A844AD8A53CD5358065473ECBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

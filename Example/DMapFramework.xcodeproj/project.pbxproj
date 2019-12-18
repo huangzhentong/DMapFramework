@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AF0E9DBF5FFE34953566A49 /* DMapFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DMapFramework.podspec; path = ../DMapFramework.podspec; sourceTree = "<group>"; };
-		1AD131FF5862F1932E2E2922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0AF0E9DBF5FFE34953566A49 /* DMapFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DMapFramework.podspec; path = ../DMapFramework.podspec; sourceTree = "<group>"; };
+		1AD131FF5862F1932E2E2922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1AF669159E2F1C407E49DBFA /* Pods-DMapFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMapFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		367D03E49AE8C06CB5076E84 /* Pods_DMapFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMapFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB31386E3660F58564FE0B4 /* Pods-DMapFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMapFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA8C19EBFFF7C72E7CA40156 /* Pods-DMapFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMapFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-DMapFramework_Tests/Pods-DMapFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C76D71A9BB84682BE00D000D /* Pods_DMapFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMapFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF48FD394367D9A5F964FAD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF48FD394367D9A5F964FAD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				4AB31386E3660F58564FE0B4 /* Pods-DMapFramework_Tests.debug.xcconfig */,
 				BA8C19EBFFF7C72E7CA40156 /* Pods-DMapFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,13 +304,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DMapFramework_Example/Pods-DMapFramework_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DMapFramework/DMapFramework.framework",
+				"${PODS_ROOT}/../../DMapFramework/Classes/DMap.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DMapFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DMap.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -501,6 +501,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMapFramework/DMapFramework-Prefix.pch";
 				INFOPLIST_FILE = "DMapFramework/DMapFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +518,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMapFramework/DMapFramework-Prefix.pch";
 				INFOPLIST_FILE = "DMapFramework/DMapFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

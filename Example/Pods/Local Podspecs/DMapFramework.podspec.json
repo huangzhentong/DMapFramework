@@ -12,11 +12,11 @@
     "181310067@qq.com": "huangzhentong@keytop.com.cn"
   },
   "source": {
-    "git": "https://github.com/181310067@qq.com/DMapFramework.git",
+    "git": "https://github.com/huangzhentong/DMapFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DMapFramework/Classes/**/*"
+  "vendored_frameworks": "DMapFramework/Classes/DMap.framework"
 }

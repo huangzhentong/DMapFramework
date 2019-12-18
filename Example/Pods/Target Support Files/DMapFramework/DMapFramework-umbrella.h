@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DMap-Swift.h"
 
 FOUNDATION_EXPORT double DMapFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char DMapFrameworkVersionString[];

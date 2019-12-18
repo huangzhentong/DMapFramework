@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/huangzhentong/DMapFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DMapFramework/Classes/**'
+  #s.source_files = 'DMapFramework/Classes/**/*'
   s.vendored_frameworks = 'DMapFramework/Classes/DMap.framework'
   # s.resource_bundles = {
   #   'DMapFramework' => ['DMapFramework/Assets/*.png']
